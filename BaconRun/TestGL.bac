@@ -1,0 +1,20 @@
+# Method call
+# Per ora funziona una volta sola!!
+
+program TestGL;
+comment Test method call
+output a2:0
+
+TBGLFrame a2;
+
+void main();
+begin
+  a2.SetTitle('Bacon does OpenGL!!');
+  a2.SetXSpeed(0.7);
+#  a2.SetTextureFile('.\glass.bmp');
+  a2.SetTextureFile('.\crate.bmp');
+  a2.Execute();
+end;
+
+end.           
+

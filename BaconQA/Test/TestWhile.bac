@@ -1,0 +1,24 @@
+program Test4;
+comment Test while
+output a1:1;
+
+number a;
+number a1;
+
+void main();
+string b;
+date c;
+begin
+  a=1;
+  a1=2;
+  while a < 2
+    a1 = a1 - 1;
+    b = 'dummy assignment';
+    a = a + 1;
+  endwhile;
+  # another dummy assignment
+  a=0;
+end;
+
+end.           
+

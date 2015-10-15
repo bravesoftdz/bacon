@@ -1,0 +1,22 @@
+program Test2;
+comment Test local function call
+output a:5.5;a1:2.5;
+
+number a;      
+number a1;     
+
+number somma(number a2, number b2); 
+begin  
+  Result = a2 + b2;
+end;   
+
+void main();     
+string b;        
+date c;          
+begin            
+  a1=2.5;
+  a=somma(2,3.5);
+end;
+
+end.
+

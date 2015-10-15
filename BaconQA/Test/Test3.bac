@@ -1,0 +1,22 @@
+program Test3;
+comment Test local function call with expression parameter
+output a:18.5;a1:15;
+
+number a;
+number a1;     
+
+number somma(number a2, number b2); 
+begin  
+  Result = a2 + b2;
+end;   
+
+void main();     
+string b;        
+date c;          
+begin            
+  a1=2.5*(4+2);
+  a=somma(a1,3.5);
+end;
+
+end.
+

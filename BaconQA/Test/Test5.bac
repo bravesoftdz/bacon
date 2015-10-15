@@ -1,0 +1,30 @@
+program Test5;
+comment Test if
+output a:0;
+
+number a;
+number a1;
+string b;
+
+void main();
+begin
+  a1=2.5;
+  if a1 > 2 or a1 <= 3
+    a=3;
+    b='a compreso tra 2 e 3';
+  else
+    a=2;
+  endif;
+  b='secondo if';
+  if a1 >= 2 and a1 < 3
+    a=4;
+  else
+    a=5;
+  endif;
+  if a1 < 3
+    a=0;
+  endif;
+end;
+
+end.
+

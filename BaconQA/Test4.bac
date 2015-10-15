@@ -1,0 +1,15 @@
+# Method call
+program Test4;
+comment Test method call
+output a2:0
+
+string a2;
+
+void main();
+begin
+  a2='pippo';
+  a2.ShowMessage('prova');
+end;
+
+end.           
+

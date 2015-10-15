@@ -1,0 +1,19 @@
+# Primo test automatico
+program Test1;
+comment Test assegnazione semplice
+output a:2.5;a1:a;
+
+number a;      
+number a1;     
+
+void main();
+string b;
+date c;
+begin
+  a=2.5;
+  a1=a;
+  b='pippo';
+end;
+
+end.           
+
